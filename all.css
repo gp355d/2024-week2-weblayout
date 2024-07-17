@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*, *::before, *::after{
+  box-sizing: border-box;
+  /* outline: 1px solid green; */
+}
+body{
+  line-height: 1.5;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-size: 24px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1296px;
+  margin: 0 auto;
+}
+.d-flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+.align-items-start{
+  align-items: start;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-column{
+  flex-direction: column;
+}
+.d-block{
+  display: block;
+}
+.text-color{
+  color: white;
+}
+.bg-color{
+  background-color: rgba(0, 0, 0, 1);
+}
+.banner{
+  padding-top: 72px;
+  padding-bottom: 32px;
+}
+.aboutMe .description,
+.intro .description{
+  width: 526px;
+}
+.solgn p{
+  color: rgba(0, 255, 163, 1);
+}
+.contactBtn{
+  border-radius: 32px;
+  background-color: #fff;
+  color:#000;
+  padding: 12px 24px;
+  margin-left: auto;
+}
+.contactBtn:hover{
+  background-color: rgba(0, 255, 163, 1);
+}
+.feature{
+  width: 636px;
+  margin: 0 -12px;
+}
+.feature li{
+  width: 50%;
+  padding: 0 12px;
+}
+.feature div{
+  padding: 16px;
+  border: 1px solid rgba(227, 227, 227, 1);
+}
+.contactMe{
+  background: linear-gradient(180deg,rgba(5, 0, 20, 1)0%,rgba(1, 2, 30, 0.89)100%);
+}
+.contactMe .content{
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.social img{
+  width: 162px;
+  height: 162px;
+}
+.social a{
+  border-radius: 40px;
+}
+.social a:hover{
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+.more{
+  background-color: rgba(0, 0, 0, 1);
+  padding: 12px 24px;
+}
+.more:hover{
+  background-color: rgba(0, 255, 163, 1);
+}
+.fz-1{
+  font-size: 128px;
+}
+.fz-2{
+  font-size: 64px;
+}
+.fz-3{
+  font-size: 20px;
+}
+.fz-4{
+  font-size: 16px;
+}
+.mb-1{
+  margin-bottom: 4px;
+}
+.mr-4{
+  margin-right: 16px;
+}
+.mb-4{
+  margin-bottom: 16px;
+}
+.mr-5{
+  margin-right: 20px;
+}
+.mr-6{
+  margin-right: 24px;
+}
+.mb-6{
+  margin-bottom: 24px;
+}
+.mb-8{
+  margin-bottom: 32px;
+}
+.mb-9{
+  margin-bottom: 36px;
+}
+.pt-1{
+  padding-top: 4px;
+}
+.pt-10{
+  padding-top: 40px;
+}
+.pb-10{
+  padding-bottom: 40px;
+}
+.pt-24{
+  padding-top: 96px;
+}
+.pb-24{
+  padding-bottom: 96px;
+}
+.pt-40{
+  padding-top: 160px;
+}
+.pb-40{
+  padding-bottom: 160px;
+}
